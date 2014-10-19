@@ -1,0 +1,201 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <title>WYSIWYG</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">   
+    <link rel="stylesheet" type="text/css" href="editor.css" media="screen">     
+</head>
+
+<body>
+
+
+<span class="ib"><button type="button" id="font-more-button" class="button button-small button-more">Font</button>
+<span class="morebox left">
+<div id="font-more">
+    <button type="button" id="font-more-1" class="morebutton light"><span style="font-family:'Arial';">Normal</span></button>
+    <button type="button" id="font-more-2" class="morebutton light"><span style="font-family:'Calibri';">Calibri</span></button>
+    <button type="button" id="font-more-3" class="morebutton light"><span style="font-family:'Cambria';">Cambria</span></button>
+    <button type="button" id="font-more-4" class="morebutton light"><span style="font-family:'Comic Sans MS';">Comic Sans MS</span></button>
+    <button type="button" id="font-more-5" class="morebutton light"><span style="font-family:'Courier New';">Monospace</span></button>
+    <button type="button" id="font-more-6" class="morebutton light"><span style="font-family:'Georgia';">Georgia</span></button>
+    <button type="button" id="font-more-7" class="morebutton light"><span style="font-family:'Impact';">Impact</span></button>
+    <button type="button" id="font-more-8" class="morebutton light"><span style="font-family:'Times New Roman';">Times New Roman</span></button>
+    <button type="button" id="font-more-9" class="morebutton light"><span style="font-family:'Verdana';">Verdana</span></button>
+</div>
+</span></span>    
+
+<span class="ib"><button type="button" id="size-more-button" class="button button-small button-more">Format</button>
+<span class="morebox left">
+<div id="size-more">
+    <button type="button" id="size-more-1" class="morebutton light"><span style="font-size:13px;">Normal</span></button>
+    <hr>
+    <button type="button" id="size-more-2" class="morebutton light"><span style="line-height: normal;font-size:26px;font-weight:bold;">Title 1</span></button>
+    <button type="button" id="size-more-3" class="morebutton light"><span style="line-height: normal;font-size:19px;font-weight:bold;">Title 2</span></button>
+    <button type="button" id="size-more-4" class="morebutton light"><span style="line-height: normal;font-size:15px;font-weight:bold;">Title 3</span></button>
+    <button type="button" id="size-more-5" class="morebutton light"><span style="line-height: normal;font-size:13px;font-weight:bold;">Title 4</span></button>
+    <hr>
+    <button type="button" id="size-more-6" class="morebutton light"><span style="line-height: normal;font-size:10px;">Small</span></button> 
+    <button type="button" id="size-more-7" class="morebutton light"><span style="line-height: normal;font-size:16px;">Medium</span></button>
+    <button type="button" id="size-more-8" class="morebutton light"><span style="line-height: normal;font-size:19px;">Larger</span></button>
+    <button type="button" id="size-more-9" class="morebutton light"><span style="line-height: normal;font-size:24px;">Larger</span></button>
+    <button type="button" id="size-more-10" class="morebutton light"><span style="line-height: normal;font-size:34px;">Very large</span></button>
+    <hr>
+    <button type="button" id="removeformat-button" class="morebutton light button-bg" style="background-image: url(black/deformat.png);">Remove Formatting</button>    
+</div>
+</span></span>
+
+<span class="ib"><button type="button" id="color-more-button" class="button button-small button-more">Color</button>
+<span class="morebox left">
+<div id="color-more">    
+    <button type="button" id="color-more-1" class="morebutton">Normal</button>
+    <button type="button" id="color-more-2" class="morebutton"><span class="red">Red</span></button>
+    <button type="button" id="color-more-3" class="morebutton"><span class="pink">Pink</span></button>
+    <button type="button" id="color-more-4" class="morebutton"><span class="green">Green</span></button>
+    <button type="button" id="color-more-5" class="morebutton"><span class="yellow">Yellow</span></button>
+    <button type="button" id="color-more-6" class="morebutton"><span class="turquoise">Turquoise</span></button>
+    <button type="button" id="color-more-7" class="morebutton"><span class="purple">Purple</span></button>
+    <button type="button" id="color-more-8" class="morebutton"><span class="brown">Brown</span></button>
+    <button type="button" id="color-more-9" class="morebutton"><span class="neon">Neon</span></button>
+    <button type="button" id="color-more-10" class="morebutton"><span class="gray">Gray</span></button>
+    <button type="button" id="color-more-11" class="morebutton"><span class="silver">Silver</span></button>
+</div>
+</span></span>
+
+<span class="divider">&nbsp;</span>
+
+<button type="button" id="bold-button" class="button button-small" title="Fett"><b>B</b></button>
+<button type="button" id="italic-button" class="button button-small" title="Kursiv"><i>I</i></button>
+<button type="button" id="strike-button" class="button button-small" title="Durchgestrichen"><s>S</s></button>
+
+<span class="divider">&nbsp;</span>
+
+<span class="ib"><button type="button" id="justify-more-button" class="button button-small button-more">Alignment</button>
+<span class="morebox left">
+<div id="justify-more">
+    <button type="button" id="justify-more-1" class="morebutton light button-bg" style="background-image: url(black/left.png);">Left</button>
+    <button type="button" id="justify-more-2" class="morebutton light button-bg" style="background-image: url(black/center.png);">Center</button>
+    <button type="button" id="justify-more-3" class="morebutton light button-bg" style="background-image: url(black/right.png);">Right</button>
+    <button type="button" id="justify-more-4" class="morebutton light button-bg" style="background-image: url(black/block.png);">Block</button>
+    <hr>
+    <button type="button" id="justify-more-5" class="morebutton light button-bg" style="background-image: url(black/indent.png);">Increase indent</button>
+    <button type="button" id="justify-more-6" class="morebutton light button-bg" style="background-image: url(black/outdent.png);">Decrease indent</button>
+</div>
+</span></span>
+
+<span class="ib"><button type="button" id="insert-more-button" class="button button-small button-more">Insert</button>
+<span class="morebox left">
+<div id="insert-more">
+    <button type="button" id="insert-more-1" class="morebutton light button-bg" style="background-image: url(black/image.png);">Image</button>
+    <button type="button" id="insert-more-2" class="morebutton light button-bg" style="background-image: url(black/table.png);">Table</button>
+    <!--<button type="button" id="insert-more-3" class="morebutton light button-bg" style="background-image: url(black/toc.png);">Table of Contents</button>-->
+    <button type="button" id="insert-more-4" class="morebutton light button-bg" style="background-image: url(black/hr.png);">Horizontal line</button>
+    <button type="button" id="insert-more-5" class="morebutton light button-bg" style="background-image: url(black/code.png);">Code</button>
+    <!--<button type="button" id="insert-more-6" class="morebutton light button-bg" style="background-image: url(black/math.png);">LaTeX</button>-->
+    <hr>
+    <button type="button" id="insert-more-7" class="morebutton light button-bg" style="background-image: url(black/ul.png);">Bulleted list</button>
+    <button type="button" id="insert-more-8" class="morebutton light button-bg" style="background-image: url(black/ol.png);">Numbered list</button>
+    <hr>
+    <button type="button" id="insert-more-9" class="morebutton light button-bg" style="background-image: url(black/superscript.png);">Superscript</button>
+    <button type="button" id="insert-more-10" class="morebutton light button-bg" style="background-image: url(black/subscript.png);">Subscript</button>    
+</div>
+</span></span>
+
+<button type="button" id="link-button" class="button button-small button-bg" style="background-image: url(black/link.png);">Link</button>
+    
+
+<div id="image-box" class="box-content" tabindex="0">
+    <h2>Insert image</h2>
+    <div class="leftfloat">Image URL</div><input type="text" id="image-box-url" style="width:300px;" class="rightfloat inputtext" value="http://">
+    <div class="buttons">
+        <button type="button" id="image-box-button" class="button button-blue">Insert image</button>
+        <button type="button" id="image-box-cancel" class="button">Cancel</button>
+    </div>   
+</div>        
+
+<div id="link-box" class="box-content" tabindex="0">
+    <h2>Create link</h2>
+    <div class="leftfloat">Link URL</div><input type="text" id="link-box-url" style="width:300px;" class="rightfloat inputtext" value="http://">
+    <div class="buttons">
+        <button type="button" id="link-box-button" class="button button-blue">Create link</button>
+        <button type="button" id="link-box-cancel" class="button">Cancel</button>
+        <a id="link-box-test" href="#">Test link</a>
+    </div>
+</div>
+
+<div id="editable-menu-container" class="editable-menu-container">
+
+    <div id="image-menu" class="editable-menu" >
+        <span class="ib"><button type="button" id="imagesize-more-button" class="button button-small button-more button-blue">Image size</button>
+        <span class="morebox left">
+        <div id="imagesize-more">
+            <button type="button" id="imagesize-more-1" class="morebutton light">Very small</button>
+            <button type="button" id="imagesize-more-2" class="morebutton light">Small</button>
+            <button type="button" id="imagesize-more-3" class="morebutton light">Normal</button>
+            <button type="button" id="imagesize-more-4" class="morebutton light">Large</button>
+            <button type="button" id="imagesize-more-5" class="morebutton light">Very large</button>  
+            <hr>
+            <button type="button" id="imagesize-more-6" class="morebutton light button-bg" style="background-image: url(black/width.png);">Page width</button>
+            <button type="button" id="imagesize-more-7" class="morebutton light button-bg" style="background-image: url(black/original.png);">Original</button>
+        </div>
+        </span></span>
+        
+        <span class="ib"><button type="button" id="imagefloat-more-button" class="button button-small button-more button-blue">Image align</button>
+        <span class="morebox left">
+        <div id="imagefloat-more">
+            <button type="button" id="imagefloat-more-1" class="morebutton light button-bg" style="background-image: url(black/nonefloat.png);">In line</button>
+            <button type="button" id="imagefloat-more-2" class="morebutton light button-bg" style="background-image: url(black/leftfloat.png);">Left float</button>
+            <button type="button" id="imagefloat-more-3" class="morebutton light button-bg" style="background-image: url(black/rightfloat.png);">Right float</button>
+        </div>
+        </span></span>
+    </div>
+    
+    <div id="table-menu" class="editable-menu" >
+        <button type="button" id="cellborder-button" class="button button-small button-blue button-bg" style="background-image: url(white/border.png);">Cell border</button>
+        <button type="button" id="fullwidth-button" class="button button-small button-blue button-bg" style="background-image: url(white/width.png);">Page width</button>
+        
+        <span class="divider">&nbsp;</span>
+        
+        <span class="ib"><button type="button" id="tablerow-more-button" class="button button-small button-more button-blue">Row</button>
+        <span class="morebox left">
+        <div id="tablerow-more">
+            <button type="button" id="tablerow-more-1" class="morebutton light button-bg" style="background-image: url(black/row_before.png);">Insert row before</button>
+            <button type="button" id="tablerow-more-2" class="morebutton light button-bg" style="background-image: url(black/row_after.png);">Insert row at the end</button>
+            <hr>
+            <button type="button" id="tablerow-more-3" class="morebutton light button-bg" style="background-image: url(black/thead.png);">Insert table header</button>
+            <hr>
+            <button type="button" id="tablerow-more-4" class="morebutton light button-bg" style="background-image: url(black/delete_row.png);">Delete row</button>
+        </div>
+        </span></span>
+        
+        <span class="ib"><button type="button" id="tablecolumn-more-button" class="button button-small button-more button-blue">Column</button>
+        <span class="morebox left">
+        <div id="tablecolumn-more">
+            <button type="button" id="tablecolumn-more-1" class="morebutton light button-bg" style="background-image: url(black/column_before.png);">Insert column before</button>
+            <button type="button" id="tablecolumn-more-2" class="morebutton light button-bg" style="background-image: url(black/column_after.png);">Insert column at the end</button>
+            <hr> 
+            <button type="button" id="tablecolumn-more-3" class="morebutton light button-bg" style="background-image: url(black/delete_column.png);">Delete column</button>   
+        </div>
+        </span></span>
+    </div>
+    
+    <div class="editable-menu" id="href-menu">
+        <button type="button" id="target-button" class="button button-small button-blue button-bg" style="background-image: url(white/target.png);">External link</button>
+        <button type="button" id="test-button" onclick="" class="button button-small button-blue button-bg" style="background-image: url(white/world.png);">Test link</button>    
+    </div>
+    
+</div>
+
+<div id="editable" class="editable" contenteditable="true" tabindex="0">
+Hello World. Lorem ipsum dolor sit amet. <br /><br /><table><tbody><tr class="thead"><td>Lorem</td><td>Ipsum</td></tr><tr><td>Dolor</td><td>Sit</td></tr><tr><td>Amet</td><td>Lorem</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table><br />
+More at <a href="http://loremipsum.de" class="" target="_blank">http://loremipsum.de</a>.
+</div>
+<div class="transparent-layer" id="notebox-container"></div>
+   
+<script src="editor.js" type="text/javascript"></script>
+</body>
+</html>
